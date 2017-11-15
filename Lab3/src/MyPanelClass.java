@@ -25,16 +25,24 @@ public class MyPanelClass extends JPanel {
                         g.setColor(Color.PINK);
                         g.fillRect(x1, y1, width + 1, height + 1);
                         
-                        //Draw a borders
-                        g.setColor(Color.MAGENTA);
-                        g.drawRect(x1, y1, width, height);
+//                        //Draw a borders
+//                        g.setColor(Color.MAGENTA);
+//                        g.drawRect(x1, y1, width, height);
+//                        
+//                        g.setColor(Color.GREEN);
+//                        g.drawRect(x1+8, y1+8, width-16, height-16);
+//                        
+//                        
+//                        g.setColor(Color.MAGENTA);
+//                        g.drawRect(x1+16, y1+16, width-32, height-32);
+//                        
+//                        g.setColor(Color.WHITE);
+//                        g.drawLine(x1, y1, x2, y2);
+//                        
+//                        g.setColor(Color.YELLOW);
+//                        g.drawLine(x1, y2, x2, y1);
                         
-                        
-                        g.setColor(Color.GREEN);
-                        g.drawRect(x1+8, y1+8, width-16, height-16);
-                        
-                        
-                        g.setColor(Color.MAGENTA);
-                        g.drawRect(x1+16, y1+16, width-32, height-32);
+                        g.setColor(Color.LIGHT_GRAY);
+                        g.fillOval((x2/2)-(55/2), (y2/2)-(55/2), 55, 55);
             }
 }
